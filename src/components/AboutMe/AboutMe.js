@@ -4,10 +4,10 @@ import AboutMeImage from '../../images/about-me-image.jpg';
 export const AboutMe = () => {
   return (
     <section className="about-me" id="about-me">
-      <h2 className="about-me__title">Студент</h2>
+      <h2 className="about-me__header">Студент</h2>
       <div className="about-me__container">
         <div className="about-me__wrapper">
-          <h3 className="about-me__header">Виталий</h3>
+          <h3 className="about-me__title">Виталий</h3>
           <p className="about-me__subtitle">
             Фронтенд-разработчик, 30&nbsp;лет
           </p>
@@ -19,7 +19,12 @@ export const AboutMe = () => {
             После того, как прошёл курс по&nbsp;веб-разработке, начал заниматься
             фриланс-заказами и&nbsp;ушёл с&nbsp;постоянной работы.
           </p>
-          <a className="about-me__link" href="https://github.com/glebradnikov">
+          <a
+            className="about-me__link"
+            href="https://github.com/glebradnikov"
+            target="_blank"
+            rel="noreferrer"
+          >
             Github
           </a>
         </div>

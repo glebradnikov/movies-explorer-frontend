@@ -5,11 +5,11 @@
   padding: 110px 70px;
 }
 
-.about-project__title {
+.about-project__header {
   margin: 0 0 70px;
   padding: 0 0 23px;
   border-bottom: 1px solid #dadada;
-  font: 400 22px/27px Inter, sans-serif;
+  font: 400 22px/27px Inter, 'Arial', sans-serif;
   letter-spacing: -.88px;
   color: #fff;
 }
@@ -28,20 +28,20 @@
   flex: 0 1 550px;
 }
 
-.about-project__header {
+.about-project__title {
   margin: 0 0 26px;
-  font: 400 20px/24px Inter, sans-serif;
+  font: 400 20px/24px Inter, 'Arial', sans-serif;
   letter-spacing: -.8px;
   color: #fff;
 }
 
 .about-project__text {
   margin: 0;
-  font: 400 14px/20px Inter, sans-serif;
+  font: 400 14px/20px Inter, 'Arial', sans-serif;
   color: #fff;
 }
 
-.about-project__bar-list {
+.about-project__container {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -50,32 +50,32 @@
   list-style: none;
 }
 
-.about-project__bar-item {
+.about-project__bar {
   flex: 1 1 auto;
 }
 
-.about-project__bar-item_type_backend {
+.about-project__bar_type_backend {
   flex: 0 1 228px;
 }
 
-.about-project__bar-header {
+.about-project__bar-title {
   box-sizing: border-box;
   margin: 0 0 14px;
   padding: 9px 14px;
-  font: 400 14px/18px Inter, sans-serif;
+  font: 400 14px/18px Inter, 'Arial', sans-serif;
   text-align: center;
   color: #fff;
   background: #303030;
 }
 
-.about-project__bar-header_type_backend {
+.about-project__bar-title_type_backend {
   color: #000;
   background: #3ddc84;
 }
 
 .about-project__bar-text {
   margin: 0;
-  font: 500 14px/17px Inter, sans-serif;
+  font: 500 14px/17px Inter, 'Arial', sans-serif;
   text-align: center;
   color: #8b8b8b;
 }
@@ -90,19 +90,19 @@
     margin: 0 0 93px;
   }
 
-  .about-project__header {
+  .about-project__title {
     margin: 0 0 22px;
   }
 
   .about-project__text {
-    font: 400 12px/18px Inter, sans-serif;
+    font: 400 12px/18px Inter, 'Arial', sans-serif;
   }
 
-  .about-project__bar-item_type_backend {
+  .about-project__bar_type_backend {
     flex: 0 1 140px;
   }
 
-  .about-project__bar-header {
+  .about-project__bar-title {
     padding: 9px 10px;
   }
 
@@ -116,10 +116,10 @@
     padding: 70px 18px;
   }
 
-  .about-project__title {
+  .about-project__header {
     margin: 0 0 60px;
     padding: 0 0 28px;
-    font: 400 18px/22px Inter, sans-serif;
+    font: 400 18px/22px Inter, 'Arial', sans-serif;
     letter-spacing: -.72px;
   }
 
@@ -133,27 +133,27 @@
     flex: 0 1 auto;
   }
 
-  .about-project__header {
+  .about-project__title {
     margin: 0 0 16px;
-    font: 400 18px/22px Inter, sans-serif;
+    font: 400 18px/22px Inter, 'Arial', sans-serif;
     letter-spacing: -.72px;
   }
 
   .about-project__text {
-    font: 400 11px/16px Inter, sans-serif;
+    font: 400 11px/16px Inter, 'Arial', sans-serif;
   }
 
-  .about-project__bar-item_type_backend {
+  .about-project__bar_type_backend {
     flex: 0 1 100px;
   }
 
-  .about-project__bar-header {
+  .about-project__bar-title {
     margin: 0 0 10px;
     padding: 11px 10px;
-    font: 400 11px/13px Inter, sans-serif;
+    font: 400 11px/13px Inter, 'Arial', sans-serif;
   }
 
   .about-project__bar-text {
-    font: 400 11px/13px Inter, sans-serif;
+    font: 400 11px/13px Inter, 'Arial', sans-serif;
   }
 }

@@ -17,7 +17,7 @@
   padding: 70px 70px 240px;
 }
 
-.movies-card-list__more {
+.movies-card-list__container {
   padding: 50px 40px 80px;
 }
 
@@ -32,7 +32,7 @@
   border: 1px solid #424242;
   border-radius: 6px;
   outline: 0;
-  font: 500 12px/16px Inter, sans-serif;
+  font: 500 12px/16px Inter, 'Arial', sans-serif;
   text-align: center;
   color: #fff;
   background: #0000;

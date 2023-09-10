@@ -25,7 +25,7 @@
 .movies-card__title {
   flex: 0 1 250px;
   margin: 0;
-  font: 500 13px/16px Inter, sans-serif;
+  font: 500 13px/16px Inter, 'Arial', sans-serif;
   color: #fff;
 }
 
@@ -39,7 +39,7 @@
   margin: 0;
   padding: 3px 4px;
   border-radius: 3px;
-  font: 400 11px/10px Inter, sans-serif;
+  font: 400 11px/10px Inter, 'Arial', sans-serif;
   color: #8b8b8b;
   background: #2f2f2f;
 }
@@ -68,7 +68,7 @@
   width: 72px;
   height: 21px;
   border-radius: 30px;
-  font: 400 10px/9px Inter, sans-serif;
+  font: 400 10px/9px Inter, 'Arial', sans-serif;
   color: #fff;
   background: #313131;
 }
@@ -118,7 +118,7 @@
   }
 
   .movies-card__title {
-    font: 500 12px/15px Inter, sans-serif;
+    font: 500 12px/15px Inter, 'Arial', sans-serif;
   }
 
   .movies-card__button {

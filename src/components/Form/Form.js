@@ -9,8 +9,8 @@ export const Form = (props) => {
       <Link className="form__image-link" to="/">
         <img className="form__image" src={logo} alt="Логотип Movie Explorer" />
       </Link>
-      <form className="form__form" name={props.name} noValidate>
-        <legend className="form__legend">{props.legend}</legend>
+      <h1 className="form__title">{props.title}</h1>
+      <form className="form__form" name={props.name}>
         <fieldset
           className={`form__fieldset ${
             pathname === '/signin' && 'form__fieldset_type_login'
@@ -19,16 +19,31 @@ export const Form = (props) => {
           {pathname === '/signup' && (
             <label className="form__label">
               Имя
-              <input className="form__input" placeholder="Имя" />
+              <input
+                className="form__input"
+                type="text"
+                placeholder="Имя"
+                required
+              />
             </label>
           )}
           <label className="form__label">
             E-mail
-            <input className="form__input" placeholder="E-mail" />
+            <input
+              className="form__input"
+              type="email"
+              placeholder="E-mail"
+              required
+            />
           </label>
           <label className="form__label">
             Пароль
-            <input className="form__input" placeholder="Пароль" />
+            <input
+              className="form__input"
+              type="password"
+              placeholder="Пароль"
+              required
+            />
           </label>
         </fieldset>
         <button className="form__button" type="submit">

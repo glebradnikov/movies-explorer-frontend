@@ -5,7 +5,7 @@ export const Login = () => {
     <main className="register">
       <Form
         name="login"
-        legend="Рады видеть!"
+        title="Рады видеть!"
         buttonText="Войти"
         text="Ещё не зарегистрированы?"
         link="/signup"

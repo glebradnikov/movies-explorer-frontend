@@ -23,7 +23,7 @@ export const MoviesCardList = (props) => {
         ))}
       </ul>
       {pathname === '/movies' && (
-        <div className="movies-card-list__more">
+        <div className="movies-card-list__container">
           <button className="movies-card-list__button">Ещё</button>
         </div>
       )}

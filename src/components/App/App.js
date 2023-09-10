@@ -1,3 +1,4 @@
+import { useState } from 'react';
 import { Routes, Route, useLocation } from 'react-router-dom';
 import { Header } from '../Header/Header';
 import { Main } from '../Main/Main';
@@ -10,6 +11,13 @@ import { PageNotFound } from '../PageNotFound/PageNotFound';
 import { Footer } from '../Footer/Footer';
 
 export const App = () => {
+  const [loggedIn, setLoggedIn] = useState(false);
+  const [openMenu, setOpenMenu] = useState(false);
+
+  const handleOpenMenu = () => {
+    setOpenMenu(!openMenu);
+  };
+
   const { pathname } = useLocation();
 
   return (
@@ -17,7 +25,14 @@ export const App = () => {
       {(pathname === '/' ||
         pathname === '/movies' ||
         pathname === '/saved-movies' ||
-        pathname === '/profile') && <Header />}
+        pathname === '/profile') && (
+        <Header
+          loggedIn={loggedIn}
+          openMenu={openMenu}
+          setOpenMenu={setOpenMenu}
+          handleOpenMenu={handleOpenMenu}
+        />
+      )}
       <Routes>
         <Route path="/" element={<Main />} />
         <Route path="/movies" element={<Movies />} />

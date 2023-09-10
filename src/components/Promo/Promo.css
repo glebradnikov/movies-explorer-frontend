@@ -14,7 +14,7 @@
 .promo__title {
   max-width: 730px;
   margin: 0 auto 151px;
-  font: 400 50px/58px Inter, sans-serif;
+  font: 400 50px/58px Inter, 'Arial', sans-serif;
   letter-spacing: -2px;
   text-align: center;
   color: #fff;
@@ -31,7 +31,7 @@
 
   .promo__title {
     margin: 0 auto 314px;
-    font: 400 40px/52px Inter, sans-serif;
+    font: 400 40px/52px Inter, 'Arial', sans-serif;
     letter-spacing: -1.6px;
   }
 }
@@ -48,7 +48,7 @@
   .promo__title {
     max-width: 292px;
     margin: 0 auto 212px;
-    font: 400 29px/37px Inter, sans-serif;
+    font: 400 29px/37px Inter, 'Arial', sans-serif;
     letter-spacing: -1.16px;
   }
 }

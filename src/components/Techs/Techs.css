@@ -9,18 +9,18 @@
   padding: 100px 70px;
 }
 
-.techs__title {
+.techs__header {
   margin: 0 0 90px;
   padding: 0 0 23px;
   border-bottom: 1px solid #dadada;
-  font: 400 22px/27px Inter, sans-serif;
+  font: 400 22px/27px Inter, 'Arial', sans-serif;
   letter-spacing: -.88px;
   color: #fff;
 }
 
-.techs__header {
+.techs__title {
   margin: 0 0 26px;
-  font: 400 50px/58px Inter, sans-serif;
+  font: 400 50px/58px Inter, 'Arial', sans-serif;
   letter-spacing: -2px;
   text-align: center;
   color: #fff;
@@ -29,7 +29,7 @@
 .techs__subtitle {
   max-width: 460px;
   margin: 0 auto 100px;
-  font: 400 14px/20px Inter, sans-serif;
+  font: 400 14px/20px Inter, 'Arial', sans-serif;
   letter-spacing: -.56px;
   text-align: center;
   color: #fff;
@@ -50,7 +50,7 @@
   margin: 0;
   padding: 21px 15px 22px;
   border-radius: 10px;
-  font: 400 14px/17px Inter, sans-serif;
+  font: 400 14px/17px Inter, 'Arial', sans-serif;
   letter-spacing: -.56px;
   text-align: center;
   color: #fff;
@@ -62,17 +62,17 @@
     padding: 90px 50px;
   }
 
-  .techs__title {
+  .techs__header {
     margin: 0 0 80px;
   }
 
-  .techs__header {
+  .techs__title {
     margin: 0 0 22px;
   }
 
   .techs__subtitle {
     margin: 0 auto 83px;
-    font: 400 12px/18px Inter, sans-serif;
+    font: 400 12px/18px Inter, 'Arial', sans-serif;
     letter-spacing: -.48px;
   }
 
@@ -82,7 +82,7 @@
 
   .techs__text {
     padding: 21px 15px;
-    font: 400 12px/15px Inter, sans-serif;
+    font: 400 12px/15px Inter, 'Arial', sans-serif;
     letter-spacing: -.48px;
   }
 }
@@ -96,24 +96,24 @@
     padding: 70px 18px;
   }
 
-  .techs__title {
+  .techs__header {
     margin: 0 0 60px;
     padding: 0 0 28px;
     ;
-    font: 400 18px/22px Inter, sans-serif;
+    font: 400 18px/22px Inter, 'Arial', sans-serif;
     letter-spacing: -.72px;
     border-bottom: 1px solid #000;
   }
 
-  .techs__header {
+  .techs__title {
     margin: 0 0 24px;
-    font: 400 30px/36px Inter, sans-serif;
+    font: 400 30px/36px Inter, 'Arial', sans-serif;
     letter-spacing: -1.2px;
   }
 
   .techs__subtitle {
     margin: 0 auto 50px;
-    font: 400 11px/16px Inter, sans-serif;
+    font: 400 11px/16px Inter, 'Arial', sans-serif;
     letter-spacing: -.44px;
   }
 

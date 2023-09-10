@@ -10,12 +10,22 @@ export const Footer = () => {
         </p>
         <ul className="footer__list">
           <li className="footer__item">
-            <a className="footer__link" href="https://practicum.yandex.ru">
+            <a
+              className="footer__link"
+              href="https://practicum.yandex.ru"
+              target="_blank"
+              rel="noreferrer"
+            >
               Яндекс.Практикум
             </a>
           </li>
           <li className="footer__item">
-            <a className="footer__link" href="https://github.com/glebradnikov">
+            <a
+              className="footer__link"
+              href="https://github.com/glebradnikov"
+              target="_blank"
+              rel="noreferrer"
+            >
               Github
             </a>
           </li>

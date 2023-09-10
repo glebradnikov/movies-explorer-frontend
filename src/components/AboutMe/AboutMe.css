@@ -5,14 +5,15 @@
   padding: 110px 70px 115px;
 }
 
-.about-me__title {
+.about-me__header {
   margin: 0 0 66px;
   padding: 0 0 23px;
   border-bottom: 1px solid #dadada;
-  font: 400 22px/27px Inter, sans-serif;
+  font: 400 22px/27px Inter, 'Arial', sans-serif;
   letter-spacing: -.88px;
   color: #fff;
 }
+
 
 .about-me__container {
   display: flex;
@@ -26,23 +27,23 @@
   flex: 0 1 600px;
 }
 
-.about-me__header {
+.about-me__title {
   margin: 0 0 18px;
-  font: 400 50px/58px Inter, sans-serif;
+  font: 400 50px/58px Inter, 'Arial', sans-serif;
   letter-spacing: -2px;
   color: #fff;
 }
 
 .about-me__subtitle {
   margin: 0 0 26px;
-  font: 500 18px/20px Inter, sans-serif;
+  font: 500 18px/20px Inter, 'Arial', sans-serif;
   font-feature-settings: 'clig' off, 'liga' off;
   color: #fff;
 }
 
 .about-me__text {
   margin: 0 0 99px;
-  font: 400 14px/22px Inter, sans-serif;
+  font: 400 14px/22px Inter, 'Arial', sans-serif;
   font-feature-settings: 'clig' off, 'liga' off;
   color: #fff;
 }
@@ -53,7 +54,7 @@
   justify-content: flex-start;
   max-width: 46px;
   outline: 0;
-  font: 500 14px/17px Inter, sans-serif;
+  font: 500 14px/17px Inter, 'Arial', sans-serif;
   color: #fff;
   text-decoration: none;
   transition: .5s;
@@ -84,20 +85,20 @@
     flex: 0 2 364px;
   }
 
-  .about-me__header {
+  .about-me__title {
     margin: 0 0 16px;
-    font: 400 40px/40px Inter, sans-serif;
+    font: 400 40px/40px Inter, 'Arial', sans-serif;
     letter-spacing: -1.6px;
   }
 
   .about-me__subtitle {
     margin: 0 0 20px;
-    font: 500 12px/18px Inter, sans-serif;
+    font: 500 12px/18px Inter, 'Arial', sans-serif;
   }
 
   .about-me__text {
     margin: 0 0 87px;
-    font: 400 12px/18px Inter, sans-serif;
+    font: 400 12px/18px Inter, 'Arial', sans-serif;
   }
 
   .about-me__image {
@@ -111,10 +112,10 @@
     padding: 70px 14px;
   }
 
-  .about-me__title {
+  .about-me__header {
     margin: 0 0 60px;
     padding: 0 0 28px;
-    font: 400 18px/22px Inter, sans-serif;
+    font: 400 18px/22px Inter, 'Arial', sans-serif;
     letter-spacing: -.72px;
   }
 
@@ -128,19 +129,19 @@
     flex: 0 1 auto;
   }
 
-  .about-me__header {
+  .about-me__title {
     margin: 0 0 20px;
-    font: 400 30px/36px Inter, sans-serif;
+    font: 400 30px/36px Inter, 'Arial', sans-serif;
     letter-spacing: -1.2px;
   }
 
   .about-me__subtitle {
-    font: 500 11px/16px Inter, sans-serif;
+    font: 500 11px/16px Inter, 'Arial', sans-serif;
   }
 
   .about-me__text {
     margin: 0 0 40px;
-    font: 400 11px/16px Inter, sans-serif;
+    font: 400 11px/16px Inter, 'Arial', sans-serif;
   }
 
   .about-me__image {
